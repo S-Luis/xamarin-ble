@@ -1,0 +1,1 @@
+C:\Users\isobe-h\Desktop\xamarin-todo\ToDo\ToDo.UWP\ToDo.UWP.csproj;x86
