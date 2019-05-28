@@ -1006,11 +1006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.iOS/ToDo.iOS.csproj",
+      "projectUniqueName": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo.iOS/ToDo.iOS.csproj",
       "projectName": "ToDo.iOS",
-      "projectPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.iOS/ToDo.iOS.csproj",
+      "projectPath": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo.iOS/ToDo.iOS.csproj",
       "packagesPath": "/Users/nora/.nuget/packages/",
-      "outputPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.iOS/obj/",
+      "outputPath": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1025,8 +1025,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/ToDo.csproj": {
-              "projectPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/ToDo.csproj"
+            "/Users/nora/Projects/xamarin-ble/ToDo/ToDo/ToDo.csproj": {
+              "projectPath": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo/ToDo.csproj"
             }
           }
         }

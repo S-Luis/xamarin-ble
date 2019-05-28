@@ -10,7 +10,7 @@
         <ToolbarItem Text="Save" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout Spacing="20" Padding="15">
+        <StackLayout Spacing="10" Padding="15">
             <Label Text="SERVICE UUID"/>
             <Entry Placeholder="00000000-0000-0000-0000-000000000000" FontSize="Medium"/>
             <Label Text="CHARACTERISTIC UUID"/>

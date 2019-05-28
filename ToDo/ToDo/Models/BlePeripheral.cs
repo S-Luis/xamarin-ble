@@ -12,6 +12,7 @@ namespace ToDo.Models
             Write,
             Notify
         };
+        public string Name { get; set; }
         private bool isOn;
         public bool IsOn
         {
@@ -71,6 +72,7 @@ namespace ToDo.Models
         {
             return new BlePeripheral()
             {
+                Name = "Init",
                 isOn = false,
                 isPaired = false,
                 serviceUuid = null,
@@ -83,6 +85,7 @@ namespace ToDo.Models
         {
             target = target ?? new BlePeripheral();
 
+            target.Name = this.Name;
             target.isOn = this.isOn;
             target.isPaired = this.isPaired;
             target.serviceUuid = this.serviceUuid;

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using ToDo.ViewModels;
+using ToDo.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,6 +19,9 @@ namespace ToDo.Views
         public MainPage()
         {
             InitializeComponent();
+            var viewModels = new MainViewModel();
+            viewModels.Items = BlePeripheralFiltableCollection.MakeSampleData();
+            this.BindingContext = viewModels;
         }
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)

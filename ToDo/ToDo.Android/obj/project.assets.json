@@ -1962,11 +1962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.Android/ToDo.Android.csproj",
+      "projectUniqueName": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo.Android/ToDo.Android.csproj",
       "projectName": "ToDo.Android",
-      "projectPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.Android/ToDo.Android.csproj",
+      "projectPath": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo.Android/ToDo.Android.csproj",
       "packagesPath": "/Users/nora/.nuget/packages/",
-      "outputPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.Android/obj/",
+      "outputPath": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1981,8 +1981,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/ToDo.csproj": {
-              "projectPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/ToDo.csproj"
+            "/Users/nora/Projects/xamarin-ble/ToDo/ToDo/ToDo.csproj": {
+              "projectPath": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo/ToDo.csproj"
             }
           }
         }

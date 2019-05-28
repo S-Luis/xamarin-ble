@@ -35,6 +35,20 @@ namespace ToDo.Models
         {
             _items.Insert(index, item);
         }
+        public static BlePeripheralFiltableCollection MakeSampleData()
+        {
+            string uuid = "00001111-2222-3333-4444-666666666666";
+            string uuid2 = "99999999-2222-3333-4444-222344576554";
+            string uuid3 = "88888888-2222-3333-4444-987654345676";
+            var lst = new List<BlePeripheral>
+            {
+                new BlePeripheral() { Name = "1st children", IsOn = false, IsPaired = false, ServiceUuid = uuid, CharacteristicUuid = uuid, CharacteristicDescriptorUuid = uuid, Property = BlePeripheral.Properties.Notify },
+                new BlePeripheral() { Name = "2nd children", IsOn = true, IsPaired = true, ServiceUuid = uuid2, CharacteristicUuid = uuid3, CharacteristicDescriptorUuid = uuid2, Property = BlePeripheral.Properties.Notify },
+                new BlePeripheral() { Name = "3rd children", IsOn = false, IsPaired = true, ServiceUuid = uuid3, CharacteristicUuid = uuid2, CharacteristicDescriptorUuid = uuid3, Property = BlePeripheral.Properties.Notify }
+            };
+
+            return new BlePeripheralFiltableCollection(lst);
+        }
 
     }
 

@@ -203,3 +203,6 @@
 /Users/nora/Desktop/xamarin-ble/ToDo/ToDo.Android/obj/Debug/stamp/_CopyMdbFiles.stamp
 /Users/nora/Desktop/xamarin-ble/ToDo/ToDo.Android/obj/Debug/stamp/_CopyPdbFiles.stamp
 /Users/nora/Desktop/xamarin-ble/ToDo/ToDo.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.Android/obj/Debug/android/assets/machine.config
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.Android/obj/Debug/stamp/_CompileToDalvik.stamp
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp

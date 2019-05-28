@@ -13,21 +13,26 @@
     <ContentPage.Content>
         <StackLayout>
             <ListView
-                
+                ItemsSource="{Binding Items}"
                 VerticalOptions="FillAndExpand"
                 HasUnevenRows="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Padding="10">
-                                <Label Text="[期日]"
+                            <StackLayout Padding="5">
+                                <Label Text="{Binding Name}"
                                        LineBreakMode="NoWrap"
                                        Style="{DynamicResource ListItemTextStyle}"
-                                       FontSize="16"/>
-                                <Label Text="[項目名]"
-                                       LineBreakMode="NoWrap"
+                                       FontSize="14"/>
+                                <Label Text="Service UUID:{Binding ServiceUuid}"                                       LineBreakMode="NoWrap"
                                        Style="{DynamicResource ListItemDetailTextStyle}"
-                                       FontSize="13"/>
+                                       FontSize="8"/>
+                                 <Label Text="Characteristic UUID:{Binding CharacteristicUuid}"                                       LineBreakMode="NoWrap"
+                                       Style="{DynamicResource ListItemDetailTextStyle}"
+                                       FontSize="8"/>
+                                 <Label Text="Descriptor UUID:{Binding CharacteristicDescriptorUuid}"                                       LineBreakMode="NoWrap"
+                                       Style="{DynamicResource ListItemDetailTextStyle}"
+                                       FontSize="8"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

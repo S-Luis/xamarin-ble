@@ -6191,11 +6191,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nora/Desktop/xamarin-ble/ToDo.MSTest/ToDo.MSTest.csproj",
+      "projectUniqueName": "/Users/nora/Projects/xamarin-ble/ToDo.MSTest/ToDo.MSTest.csproj",
       "projectName": "ToDo.MSTest",
-      "projectPath": "/Users/nora/Desktop/xamarin-ble/ToDo.MSTest/ToDo.MSTest.csproj",
+      "projectPath": "/Users/nora/Projects/xamarin-ble/ToDo.MSTest/ToDo.MSTest.csproj",
       "packagesPath": "/Users/nora/.nuget/packages/",
-      "outputPath": "/Users/nora/Desktop/xamarin-ble/ToDo.MSTest/obj/",
+      "outputPath": "/Users/nora/Projects/xamarin-ble/ToDo.MSTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -6212,8 +6212,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/ToDo.csproj": {
-              "projectPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/ToDo.csproj"
+            "/Users/nora/Projects/xamarin-ble/ToDo/ToDo/ToDo.csproj": {
+              "projectPath": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo/ToDo.csproj"
             }
           }
         }

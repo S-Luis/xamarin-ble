@@ -557,11 +557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/BleTester.csproj",
-      "projectName": "BleTester",
-      "projectPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/BleTester.csproj",
+      "projectUniqueName": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo/ToDo.csproj",
+      "projectName": "ToDo",
+      "projectPath": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo/ToDo.csproj",
       "packagesPath": "/Users/nora/.nuget/packages/",
-      "outputPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/",
+      "outputPath": "/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
