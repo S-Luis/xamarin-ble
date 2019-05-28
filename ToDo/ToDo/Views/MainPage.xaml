@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
@@ -8,8 +8,7 @@
             x:Class="ToDo.Views.MainPage"
             Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="設定"/>
-        <ToolbarItem Text="+" Clicked="AddItem_Clicked"/>
+        <ToolbarItem Text="New" Clicked="AddItem_Clicked"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>

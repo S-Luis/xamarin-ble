@@ -656,11 +656,10 @@
   },
   "libraries": {
     "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "sha512": "nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -703,11 +702,10 @@
       ]
     },
     "Xamarin.Essentials/1.1.0": {
-      "sha512": "W0XOt1dNMAE2POcsVotoKDDy5FdAOnR0qULKl6WI4kQEMxQ1sp84DsSU5iacV7oQUMuPhUBAm/3ywks0HO1QrQ==",
+      "sha512": "AGismQb55pszEQ/ZIv9O1U2YyaF2gHdBdAUO79+biHf1s7AL2R++DIvmf7Z+wtfhZrB9wxhXAkOUuYHgpY6oTw==",
       "type": "package",
       "path": "xamarin.essentials/1.1.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid60/Xamarin.Essentials.dll",
         "lib/monoandroid60/Xamarin.Essentials.pdb",
@@ -746,11 +744,10 @@
       ]
     },
     "Xamarin.Forms/4.0.0.425677": {
-      "sha512": "drwO/MimaMUnmvkULASYjU5MRciVIJyiLxD3ihFq8P+DWynQZ2NLNej0Vrs3k2L7UdmqvcgCxEJdfT7uFl2KVg==",
+      "sha512": "4gyY6veCilKptd1xfK/6/yRYYmhOHoiz4x8poRoD0yoRgeRGLCxZeNqK9TgLyLYQ+h4a6Y3/6U0I5pJAp4GJ5g==",
       "type": "package",
       "path": "xamarin.forms/4.0.0.425677",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/MonoAndroid10/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -1004,39 +1001,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\isobe-h\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/nora/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isobe-h\\Desktop\\xamarin-todo\\ToDo\\ToDo.iOS\\ToDo.iOS.csproj",
+      "projectUniqueName": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.iOS/ToDo.iOS.csproj",
       "projectName": "ToDo.iOS",
-      "projectPath": "C:\\Users\\isobe-h\\Desktop\\xamarin-todo\\ToDo\\ToDo.iOS\\ToDo.iOS.csproj",
-      "packagesPath": "C:\\Users\\isobe-h\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isobe-h\\Desktop\\xamarin-todo\\ToDo\\ToDo.iOS\\obj\\",
+      "projectPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.iOS/ToDo.iOS.csproj",
+      "packagesPath": "/Users/nora/.nuget/packages/",
+      "outputPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\isobe-h\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/nora/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\isobe-h\\Desktop\\xamarin-todo\\ToDo\\ToDo\\ToDo.csproj": {
-              "projectPath": "C:\\Users\\isobe-h\\Desktop\\xamarin-todo\\ToDo\\ToDo\\ToDo.csproj"
+            "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/ToDo.csproj": {
+              "projectPath": "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/ToDo.csproj"
             }
           }
         }

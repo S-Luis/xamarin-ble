@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{C7D96CBC-EE3B-41EA-BB92-15BA9EB87006}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo/ToDo.iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="ToDo/ToDo/App.xaml" />
+      <File FileName="ToDo/ToDo/App.xaml.cs" Line="4" Column="11" />
+      <File FileName="ToDo/ToDo/Views/MainPage.xaml.cs" Line="9" Column="15" />
+      <File FileName="ToDo/ToDo/Models/BlePeripheral.cs" Line="4" Column="15" />
+      <File FileName="ToDo/ToDo/Views/DetailPage.xaml" />
+      <File FileName="ToDo/ToDo/AssemblyInfo.cs" Line="3" Column="56" />
+      <File FileName="ToDo/ToDo/Views/MainPage.xaml" />
+      <File FileName="ToDo/ToDo/Views/DetailPage.xaml.cs" Line="10" Column="15" />
+      <File FileName="ToDo/ToDo/Models/BlePeripharalFiltableCollection.cs" Line="5" Column="15" />
+      <File FileName="ToDo/ToDo.iOS/AppDelegate.cs" Line="3" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BleTester" expanded="True">
+            <Node name="BleTester" expanded="True">
+              <Node name="Helpers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="DetailPage.xaml" expanded="True" />
+                <Node name="MainPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="BleTester.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
+            <Node name="BleTester.MSTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="BleTester" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ToDo.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.7af5dcf917fa8b799f6240aeaa956df2a93ee901" />
+  <AuthorInfo Name="Isobe Hayato" Email="isobe-h@toack.co.jp" Copyright="" Company="TOACK Corporation" Trademark="" />
+  <MonoDevelop.Ide.ItemProperties.ToDo.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+</Properties>

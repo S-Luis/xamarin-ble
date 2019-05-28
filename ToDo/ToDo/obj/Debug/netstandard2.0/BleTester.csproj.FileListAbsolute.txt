@@ -1,0 +1,7 @@
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/BleTester.csprojAssemblyReference.cache
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/Views/DetailPage.xaml.g.cs
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/BleTester.csproj.CoreCompileInputs.cache
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/BleTester.AssemblyInfoInputs.cache
+/Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/BleTester.AssemblyInfo.cs
