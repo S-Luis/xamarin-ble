@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "ToDo.iOS.exe"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip ToDo_iOS_Application_Main_string__
 ToDo_iOS_Application_Main_string__:
-.file 1 "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.iOS/Main.cs"
+.file 1 "/Users/nora/Projects/xamarin-ble/ToDo/ToDo.iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -212,7 +212,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip ToDo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 ToDo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/nora/Desktop/xamarin-ble/ToDo/ToDo.iOS/AppDelegate.cs"
+.file 2 "/Users/nora/Projects/xamarin-ble/ToDo/ToDo.iOS/AppDelegate.cs"
 .loc 2 24 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -346,6 +346,298 @@ bl _p_7
 
 Lme_3:
 .text
+	.align 4
+	.no_dead_strip ToDo_iOS_BlePeripheralStorage_OpenReader_string
+ToDo_iOS_BlePeripheralStorage_OpenReader_string:
+.file 3 "/Users/nora/Projects/xamarin-ble/ToDo/ToDo.iOS/BlePeripheralStorage.cs"
+.loc 3 9 0 prologue_end
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba0
+.word 0xf9001fa1
+
+adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
+add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
+ldr x16, [x16, #240]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xf94023b1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 10 0
+.word 0xf94023b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd28000a0
+.word 0xd28000a0
+bl _p_8
+.word 0xf90043a0
+.word 0xf94023b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xf9003fa0
+.word 0xaa0003f9
+.loc 3 11 0
+.word 0xf94023b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xaa0003e1
+.word 0xf9401fa1
+bl _p_9
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xf90037a0
+.word 0xaa0003f8
+.loc 3 12 0
+.word 0xf94023b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xaa0003e1
+bl _p_10
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9411e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x53001c00
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0x34000280
+.loc 3 13 0
+.word 0xf94023b1
+.word 0xf9414231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 14 0
+.word 0xf94023b1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+bl _p_11
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9417231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f6
+.word 0x1400000a
+.loc 3 17 0
+.word 0xf94023b1
+.word 0xf9418e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 18 0
+.word 0xf94023b1
+.word 0xf9419e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800016
+.loc 3 20 0
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1603e0
+.word 0xf94023b1
+.word 0xf941da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+
+Lme_4:
+.text
+	.align 4
+	.no_dead_strip ToDo_iOS_BlePeripheralStorage_OpenWriter_string
+ToDo_iOS_BlePeripheralStorage_OpenWriter_string:
+.loc 3 22 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xf90013b9
+.word 0xf90017a0
+.word 0xf9001ba1
+
+adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
+add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
+ldr x16, [x16, #248]
+.word 0xf9001fb0
+.word 0xf9400a11
+.word 0xf90023b1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xf9401fb1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 23 0
+.word 0xf9401fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd28000a0
+.word 0xd28000a0
+bl _p_8
+.word 0xf9003fa0
+.word 0xf9401fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xf9003ba0
+.word 0xaa0003f9
+.loc 3 24 0
+.word 0xf9401fb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003e1
+.word 0xf9401ba1
+bl _p_9
+.word 0xf90037a0
+.word 0xf9401fb1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf90033a0
+.word 0xaa0003f8
+.loc 3 26 0
+.word 0xf9401fb1
+.word 0xf940f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003e1
+bl _p_12
+.word 0xf9002fa0
+.word 0xf9401fb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa0
+.word 0xf9002ba0
+.word 0xaa0003f7
+.loc 3 27 0
+.word 0xf9401fb1
+.word 0xf9413231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xaa0003e1
+.word 0xf9401fb1
+.word 0xf9414a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94163b7
+.word 0xf94013b9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_5:
+.text
+	.align 4
+	.no_dead_strip ToDo_iOS_BlePeripheralStorage__ctor
+ToDo_iOS_BlePeripheralStorage__ctor:
+.loc 3 28 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
+add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
+ldr x16, [x16, #256]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 29 0
+.word 0xf9400fb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 30 0
+.word 0xf9400fb1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_6:
+.text
 	.align 3
 jit_code_end:
 
@@ -358,6 +650,9 @@ bl ToDo_iOS_Application_Main_string__
 bl ToDo_iOS_Application__ctor
 bl ToDo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 bl ToDo_iOS_AppDelegate__ctor
+bl ToDo_iOS_BlePeripheralStorage_OpenReader_string
+bl ToDo_iOS_BlePeripheralStorage_OpenWriter_string
+bl ToDo_iOS_BlePeripheralStorage__ctor
 bl method_addresses
 method_addresses_end:
 
@@ -377,7 +672,8 @@ unbox_trampoline_addresses:
 unwind_info:
 
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152
-	.byte 9
+	.byte 9,24,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13,22,12,31,0,68,14
+	.byte 128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12
 
 .text
 	.align 4
@@ -388,61 +684,101 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
 add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #272]
 br x16
-.word 308
+.word 320
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_2:
 adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
 add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #280]
 br x16
-.word 313
+.word 325
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
 add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #288]
 br x16
-.word 318
+.word 330
 	.no_dead_strip plt_ToDo_App__ctor
 plt_ToDo_App__ctor:
 _p_4:
 adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
 add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #296]
 br x16
-.word 326
+.word 338
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_5:
 adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
 add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #304]
 br x16
-.word 331
+.word 343
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_6:
 adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
 add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #312]
 br x16
-.word 336
+.word 348
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_7:
 adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
 add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #320]
 br x16
-.word 341
+.word 353
+	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
+plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
+_p_8:
+adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
+add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
+ldr x16, [x16, #328]
+br x16
+.word 358
+	.no_dead_strip plt_System_IO_Path_Combine_string_string
+plt_System_IO_Path_Combine_string_string:
+_p_9:
+adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
+add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
+ldr x16, [x16, #336]
+br x16
+.word 363
+	.no_dead_strip plt_System_IO_File_Exists_string
+plt_System_IO_File_Exists_string:
+_p_10:
+adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
+add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
+ldr x16, [x16, #344]
+br x16
+.word 368
+	.no_dead_strip plt_System_IO_File_OpenRead_string
+plt_System_IO_File_OpenRead_string:
+_p_11:
+adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
+add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 373
+	.no_dead_strip plt_System_IO_File_OpenWrite_string
+plt_System_IO_File_OpenWrite_string:
+_p_12:
+adrp x16, mono_aot_ToDo_iOS_got@PAGE+0
+add x16, x16, mono_aot_ToDo_iOS_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 378
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_ToDo_iOS_got, 304
+.lcomm mono_aot_ToDo_iOS_got, 368
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -465,7 +801,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "F32FE8D3-B6BB-4F47-8642-E98EFD249220"
+	.asciz "182BBF76-8D95-448A-AAB7-FB3986967260"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -548,14 +884,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 30,304,8,5,0,70,387000831,0
-	.long 906,128,8,8,8,9,8388607,0
-	.long 24,1672,760,344,184,0,288,320
-	.long 232,0,176,32,752,0,0,0
+	.long 33,368,13,8,0,70,387000831,0
+	.long 1325,128,8,8,8,9,8388607,0
+	.long 24,2120,784,368,184,0,296,336
+	.long 232,0,176,32,776,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 216,111,233,122,48,135,251,155,149,247,188,112,200,161,198,68
+	.byte 128,173,170,16,180,2,230,166,89,10,151,237,168,9,128,156
 	.globl _mono_aot_module_ToDo_iOS_info
 	.align 3
 _mono_aot_module_ToDo_iOS_info:
@@ -6934,6 +7270,436 @@ LDIFF_SYM1080=Lme_3 - ToDo_iOS_AppDelegate__ctor
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde3_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_171:
+
+	.byte 5
+	.asciz "ToDo_iOS_BlePeripheralStorage"
+
+	.byte 16,16
+LDIFF_SYM1081=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1081
+	.byte 2,35,0,0,7
+	.asciz "ToDo_iOS_BlePeripheralStorage"
+
+LDIFF_SYM1082=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1082
+LTDIE_171_POINTER:
+
+	.byte 13
+LDIFF_SYM1083=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1083
+LTDIE_171_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1084=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1084
+LTDIE_174:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1085=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM1085
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1086=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1086
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1087=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1087
+LTDIE_174_POINTER:
+
+	.byte 13
+LDIFF_SYM1088=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1088
+LTDIE_174_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1089=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1089
+LTDIE_175:
+
+	.byte 5
+	.asciz "System_AsyncCallback"
+
+	.byte 128,1,16
+LDIFF_SYM1090=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM1090
+	.byte 2,35,0,0,7
+	.asciz "System_AsyncCallback"
+
+LDIFF_SYM1091=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1091
+LTDIE_175_POINTER:
+
+	.byte 13
+LDIFF_SYM1092=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1092
+LTDIE_175_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1093=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1093
+LTDIE_173:
+
+	.byte 5
+	.asciz "_ReadWriteTask"
+
+	.byte 128,1,16
+LDIFF_SYM1094=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1094
+	.byte 2,35,0,6
+	.asciz "_isRead"
+
+LDIFF_SYM1095=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1095
+	.byte 2,35,112,6
+	.asciz "_stream"
+
+LDIFF_SYM1096=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1096
+	.byte 2,35,80,6
+	.asciz "_buffer"
+
+LDIFF_SYM1097=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1097
+	.byte 2,35,88,6
+	.asciz "_offset"
+
+LDIFF_SYM1098=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1098
+	.byte 2,35,116,6
+	.asciz "_count"
+
+LDIFF_SYM1099=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1099
+	.byte 2,35,120,6
+	.asciz "_callback"
+
+LDIFF_SYM1100=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1100
+	.byte 2,35,96,6
+	.asciz "_context"
+
+LDIFF_SYM1101=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1101
+	.byte 2,35,104,0,7
+	.asciz "_ReadWriteTask"
+
+LDIFF_SYM1102=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1102
+LTDIE_173_POINTER:
+
+	.byte 13
+LDIFF_SYM1103=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1103
+LTDIE_173_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1104=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1104
+LTDIE_178:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1105=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM1105
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1106=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1106
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1107=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1107
+LTDIE_178_POINTER:
+
+	.byte 13
+LDIFF_SYM1108=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1108
+LTDIE_178_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1109=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1109
+LTDIE_177:
+
+	.byte 5
+	.asciz "_TaskNode"
+
+	.byte 96,16
+LDIFF_SYM1110=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1110
+	.byte 2,35,0,6
+	.asciz "Prev"
+
+LDIFF_SYM1111=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1111
+	.byte 2,35,80,6
+	.asciz "Next"
+
+LDIFF_SYM1112=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1112
+	.byte 2,35,88,0,7
+	.asciz "_TaskNode"
+
+LDIFF_SYM1113=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1113
+LTDIE_177_POINTER:
+
+	.byte 13
+LDIFF_SYM1114=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1114
+LTDIE_177_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1115=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1115
+LTDIE_176:
+
+	.byte 5
+	.asciz "System_Threading_SemaphoreSlim"
+
+	.byte 64,16
+LDIFF_SYM1116=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1116
+	.byte 2,35,0,6
+	.asciz "m_currentCount"
+
+LDIFF_SYM1117=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1117
+	.byte 2,35,48,6
+	.asciz "m_maxCount"
+
+LDIFF_SYM1118=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1118
+	.byte 2,35,52,6
+	.asciz "m_waitCount"
+
+LDIFF_SYM1119=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1119
+	.byte 2,35,56,6
+	.asciz "m_lockObj"
+
+LDIFF_SYM1120=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1120
+	.byte 2,35,16,6
+	.asciz "m_waitHandle"
+
+LDIFF_SYM1121=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1121
+	.byte 2,35,24,6
+	.asciz "m_asyncHead"
+
+LDIFF_SYM1122=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1122
+	.byte 2,35,32,6
+	.asciz "m_asyncTail"
+
+LDIFF_SYM1123=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1123
+	.byte 2,35,40,0,7
+	.asciz "System_Threading_SemaphoreSlim"
+
+LDIFF_SYM1124=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1124
+LTDIE_176_POINTER:
+
+	.byte 13
+LDIFF_SYM1125=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1125
+LTDIE_176_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1126=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1126
+LTDIE_172:
+
+	.byte 5
+	.asciz "System_IO_Stream"
+
+	.byte 40,16
+LDIFF_SYM1127=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM1127
+	.byte 2,35,0,6
+	.asciz "_activeReadWriteTask"
+
+LDIFF_SYM1128=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1128
+	.byte 2,35,24,6
+	.asciz "_asyncActiveSemaphore"
+
+LDIFF_SYM1129=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1129
+	.byte 2,35,32,0,7
+	.asciz "System_IO_Stream"
+
+LDIFF_SYM1130=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1130
+LTDIE_172_POINTER:
+
+	.byte 13
+LDIFF_SYM1131=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1131
+LTDIE_172_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1132=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1132
+	.byte 2
+	.asciz "ToDo.iOS.BlePeripheralStorage:OpenReader"
+	.asciz "ToDo_iOS_BlePeripheralStorage_OpenReader_string"
+
+	.byte 3,9
+	.quad ToDo_iOS_BlePeripheralStorage_OpenReader_string
+	.quad Lme_4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1133=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1133
+	.byte 2,141,48,3
+	.asciz "fileName"
+
+LDIFF_SYM1134=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1134
+	.byte 2,141,56,11
+	.asciz "docs"
+
+LDIFF_SYM1135=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1135
+	.byte 1,105,11
+	.asciz "path"
+
+LDIFF_SYM1136=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1136
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1137=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1137
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1138=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1138
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1139=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM1139
+Lfde4_start:
+
+	.long 0
+	.align 3
+	.quad ToDo_iOS_BlePeripheralStorage_OpenReader_string
+
+LDIFF_SYM1140=Lme_4 - ToDo_iOS_BlePeripheralStorage_OpenReader_string
+	.long LDIFF_SYM1140
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13
+	.align 3
+Lfde4_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ToDo.iOS.BlePeripheralStorage:OpenWriter"
+	.asciz "ToDo_iOS_BlePeripheralStorage_OpenWriter_string"
+
+	.byte 3,22
+	.quad ToDo_iOS_BlePeripheralStorage_OpenWriter_string
+	.quad Lme_5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1141=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1141
+	.byte 2,141,40,3
+	.asciz "fileName"
+
+LDIFF_SYM1142=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1142
+	.byte 2,141,48,11
+	.asciz "docs"
+
+LDIFF_SYM1143=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1143
+	.byte 1,105,11
+	.asciz "path"
+
+LDIFF_SYM1144=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1144
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1145=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1145
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1146=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM1146
+Lfde5_start:
+
+	.long 0
+	.align 3
+	.quad ToDo_iOS_BlePeripheralStorage_OpenWriter_string
+
+LDIFF_SYM1147=Lme_5 - ToDo_iOS_BlePeripheralStorage_OpenWriter_string
+	.long LDIFF_SYM1147
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12
+	.align 3
+Lfde5_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ToDo.iOS.BlePeripheralStorage:.ctor"
+	.asciz "ToDo_iOS_BlePeripheralStorage__ctor"
+
+	.byte 3,28
+	.quad ToDo_iOS_BlePeripheralStorage__ctor
+	.quad Lme_6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1148=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1148
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1149=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM1149
+Lfde6_start:
+
+	.long 0
+	.align 3
+	.quad ToDo_iOS_BlePeripheralStorage__ctor
+
+LDIFF_SYM1150=Lme_6 - ToDo_iOS_BlePeripheralStorage__ctor
+	.long LDIFF_SYM1150
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde6_end:
 
 .section __DWARF, __debug_info,regular,debug
 

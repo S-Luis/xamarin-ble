@@ -13,9 +13,11 @@
     <ContentPage.Content>
         <StackLayout>
             <ListView
+                x:Name="listView"
                 ItemsSource="{Binding Items}"
                 VerticalOptions="FillAndExpand"
-                HasUnevenRows="True">
+                HasUnevenRows="True"
+                ItemSelected="OnItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -23,16 +25,17 @@
                                 <Label Text="{Binding Name}"
                                        LineBreakMode="NoWrap"
                                        Style="{DynamicResource ListItemTextStyle}"
-                                       FontSize="14"/>
-                                <Label Text="Service UUID:{Binding ServiceUuid}"                                       LineBreakMode="NoWrap"
+                                       FontSize="16"/>
+                                <Label Text="{Binding ServiceUuid}"                                       LineBreakMode="NoWrap"
                                        Style="{DynamicResource ListItemDetailTextStyle}"
-                                       FontSize="8"/>
-                                 <Label Text="Characteristic UUID:{Binding CharacteristicUuid}"                                       LineBreakMode="NoWrap"
+                                       FontSize="10"/>
+                                 <Label Text="{Binding CharacteristicUuid}"                                       LineBreakMode="NoWrap"
                                        Style="{DynamicResource ListItemDetailTextStyle}"
-                                       FontSize="8"/>
-                                 <Label Text="Descriptor UUID:{Binding CharacteristicDescriptorUuid}"                                       LineBreakMode="NoWrap"
+                                       FontSize="10"/>
+                                 <Label Text="{Binding CharacteristicDescriptorUuid}"                                       LineBreakMode="NoWrap"
                                        Style="{DynamicResource ListItemDetailTextStyle}"
-                                       FontSize="8"/>
+                                       FontSize="10"/>
+                                 <Switch IsToggled="{Binding IsOn}"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

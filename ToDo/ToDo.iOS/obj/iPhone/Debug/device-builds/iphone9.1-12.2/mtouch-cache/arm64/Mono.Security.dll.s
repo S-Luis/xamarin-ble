@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "Mono.Security.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip _Locale_GetText_string
 _Locale_GetText_string:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/build/common/Locale.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/build/common/Locale.cs"
 .loc 1 44 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -136,7 +136,7 @@ Lme_0:
 	.align 4
 	.no_dead_strip Mono_Math_BigInteger__ctor_Mono_Math_BigInteger_Sign_uint
 Mono_Math_BigInteger__ctor_Mono_Math_BigInteger_Sign_uint:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Math/BigInteger.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Math/BigInteger.cs"
 .loc 2 57 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -5442,7 +5442,7 @@ Lme_3f:
 	.align 4
 	.no_dead_strip Mono_Math_Prime_PrimalityTests_GetSPPRounds_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor
 Mono_Math_Prime_PrimalityTests_GetSPPRounds_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Math.Prime/PrimalityTests.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Math.Prime/PrimalityTests.cs"
 .loc 3 57 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -5775,7 +5775,7 @@ Lme_45:
 	.align 4
 	.no_dead_strip Mono_Math_Prime_Generator_PrimeGeneratorBase_get_Confidence
 Mono_Math_Prime_Generator_PrimeGeneratorBase_get_Confidence:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Math.Prime.Generator/PrimeGeneratorBase.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Math.Prime.Generator/PrimeGeneratorBase.cs"
 .loc 4 47 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -5854,7 +5854,7 @@ Lme_4a:
 	.align 4
 	.no_dead_strip Mono_Math_Prime_Generator_SequentialSearchPrimeGeneratorBase_GenerateSearchBase_int_object
 Mono_Math_Prime_Generator_SequentialSearchPrimeGeneratorBase_GenerateSearchBase_int_object:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Math.Prime.Generator/SequentialSearchPrimeGeneratorBase.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Math.Prime.Generator/SequentialSearchPrimeGeneratorBase.cs"
 .loc 5 41 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -6143,7 +6143,7 @@ Lme_4f:
 	.align 4
 	.no_dead_strip Mono_Security_ASN1__ctor_byte
 Mono_Security_ASN1__ctor_byte:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security/ASN1.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security/ASN1.cs"
 .loc 6 56 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -7702,7 +7702,7 @@ Lme_60:
 	.align 4
 	.no_dead_strip Mono_Security_ASN1Convert_FromInt32_int
 Mono_Security_ASN1Convert_FromInt32_int:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security/ASN1Convert.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security/ASN1Convert.cs"
 .loc 7 75 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -8629,7 +8629,7 @@ Lme_66:
 	.align 4
 	.no_dead_strip Mono_Security_BitConverterLE_GetUIntBytes_byte_
 Mono_Security_BitConverterLE_GetUIntBytes_byte_:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security/BitConverterLE.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security/BitConverterLE.cs"
 .loc 8 50 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -9150,7 +9150,7 @@ Lme_6e:
 	.align 4
 	.no_dead_strip Mono_Security_PKCS7_ContentInfo__ctor
 Mono_Security_PKCS7_ContentInfo__ctor:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security/PKCS7.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security/PKCS7.cs"
 .loc 9 142 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -9921,7 +9921,7 @@ Lme_7c:
 	.align 4
 	.no_dead_strip Mono_Security_X509_SafeBag__ctor_string_Mono_Security_ASN1
 Mono_Security_X509_SafeBag__ctor_string_Mono_Security_ASN1:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/PKCS12.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/PKCS12.cs"
 .loc 10 81 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -19265,7 +19265,7 @@ Lme_ab:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X501_ToString_Mono_Security_ASN1
 Mono_Security_X509_X501_ToString_Mono_Security_ASN1:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X501Name.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X501Name.cs"
 .loc 11 82 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -21702,7 +21702,7 @@ Lme_b8:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X509Crl__ctor_byte__
 Mono_Security_X509_X509Crl__ctor_byte__:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509CRL.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509CRL.cs"
 .loc 12 128 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -23126,7 +23126,7 @@ Lme_c8:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X509Certificate_Parse_byte__
 Mono_Security_X509_X509Certificate_Parse_byte__:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Certificate.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Certificate.cs"
 .loc 13 112 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
@@ -25796,7 +25796,7 @@ Lme_e4:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X509CertificateCollection__ctor
 Mono_Security_X509_X509CertificateCollection__ctor:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509CertificateCollection.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509CertificateCollection.cs"
 .loc 14 44 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -26187,7 +26187,7 @@ Lme_f0:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X509Extension__ctor_Mono_Security_ASN1
 Mono_Security_X509_X509Extension__ctor_Mono_Security_ASN1:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Extension.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Extension.cs"
 .loc 15 62 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -26988,7 +26988,7 @@ Lme_fb:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X509ExtensionCollection__ctor
 Mono_Security_X509_X509ExtensionCollection__ctor:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Extensions.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Extensions.cs"
 .loc 16 52 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -27337,7 +27337,7 @@ Lme_100:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X509Store__ctor_string_bool_bool
 Mono_Security_X509_X509Store__ctor_string_bool_bool:
-.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Store.cs"
+.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Store.cs"
 .loc 17 61 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -28016,7 +28016,7 @@ Lme_109:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X509StoreManager_get_CurrentUserPath
 Mono_Security_X509_X509StoreManager_get_CurrentUserPath:
-.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509StoreManager.cs"
+.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509StoreManager.cs"
 .loc 18 61 0 prologue_end
 .word 0xa9bf7bfd
 .word 0x910003fd
@@ -28213,7 +28213,7 @@ Lme_10d:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X509Stores__ctor_string_bool
 Mono_Security_X509_X509Stores__ctor_string_bool:
-.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Stores.cs"
+.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X509Stores.cs"
 .loc 19 56 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -28307,7 +28307,7 @@ Lme_10f:
 	.align 4
 	.no_dead_strip Mono_Security_X509_X520_AttributeTypeAndValue__ctor_string_int
 Mono_Security_X509_X520_AttributeTypeAndValue__ctor_string_int:
-.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X520Attributes.cs"
+.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509/X520Attributes.cs"
 .loc 20 73 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -28998,7 +28998,7 @@ Lme_125:
 	.align 4
 	.no_dead_strip Mono_Security_X509_Extensions_AuthorityKeyIdentifierExtension__ctor_Mono_Security_X509_X509Extension
 Mono_Security_X509_Extensions_AuthorityKeyIdentifierExtension__ctor_Mono_Security_X509_X509Extension:
-.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509.Extensions/AuthorityKeyIdentifierExtension.cs"
+.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.X509.Extensions/AuthorityKeyIdentifierExtension.cs"
 .loc 21 67 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -29368,7 +29368,7 @@ Lme_12a:
 	.align 4
 	.no_dead_strip Mono_Security_Protocol_Ntlm_ChallengeResponse__ctor
 Mono_Security_Protocol_Ntlm_ChallengeResponse__ctor:
-.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/ChallengeResponse.cs"
+.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/ChallengeResponse.cs"
 .loc 22 66 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -30427,7 +30427,7 @@ Lme_137:
 	.align 4
 	.no_dead_strip Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_LM_string_byte__
 Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_LM_string_byte__:
-.file 23 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/ChallengeResponse2.cs"
+.file 23 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/ChallengeResponse2.cs"
 .loc 23 62 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -31848,7 +31848,7 @@ Lme_141:
 	.align 4
 	.no_dead_strip Mono_Security_Protocol_Ntlm_MessageBase__ctor_int
 Mono_Security_Protocol_Ntlm_MessageBase__ctor_int:
-.file 24 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/MessageBase.cs"
+.file 24 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/MessageBase.cs"
 .loc 24 51 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -32194,7 +32194,7 @@ Lme_14a:
 	.align 4
 	.no_dead_strip Mono_Security_Protocol_Ntlm_NtlmSettings_get_DefaultAuthLevel
 Mono_Security_Protocol_Ntlm_NtlmSettings_get_DefaultAuthLevel:
-.file 25 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/NtlmSettings.cs"
+.file 25 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/NtlmSettings.cs"
 .loc 25 46 0 prologue_end
 .word 0xa9bf7bfd
 .word 0x910003fd
@@ -32230,7 +32230,7 @@ Lme_14c:
 	.align 4
 	.no_dead_strip Mono_Security_Protocol_Ntlm_Type1Message__ctor
 Mono_Security_Protocol_Ntlm_Type1Message__ctor:
-.file 26 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/Type1Message.cs"
+.file 26 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/Type1Message.cs"
 .loc 26 47 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -32750,7 +32750,7 @@ Lme_151:
 	.align 4
 	.no_dead_strip Mono_Security_Protocol_Ntlm_Type2Message__ctor_byte__
 Mono_Security_Protocol_Ntlm_Type2Message__ctor_byte__:
-.file 27 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/Type2Message.cs"
+.file 27 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/Type2Message.cs"
 .loc 27 57 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -33173,7 +33173,7 @@ Lme_158:
 	.align 4
 	.no_dead_strip Mono_Security_Protocol_Ntlm_Type3Message__ctor_Mono_Security_Protocol_Ntlm_Type2Message
 Mono_Security_Protocol_Ntlm_Type3Message__ctor_Mono_Security_Protocol_Ntlm_Type2Message:
-.file 28 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/Type3Message.cs"
+.file 28 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Protocol.Ntlm/Type3Message.cs"
 .loc 28 84 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -34355,7 +34355,7 @@ Lme_161:
 	.align 4
 	.no_dead_strip Mono_Security_Interface_Alert_get_Level
 Mono_Security_Interface_Alert_get_Level:
-.file 29 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/Alert.cs"
+.file 29 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/Alert.cs"
 .loc 29 83 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -34530,7 +34530,7 @@ Lme_166:
 	.align 4
 	.no_dead_strip Mono_Security_Interface_ValidationResult__ctor_bool_bool_int_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
 Mono_Security_Interface_ValidationResult__ctor_bool_bool_int_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors:
-.file 30 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/CertificateValidationHelper.cs"
+.file 30 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/CertificateValidationHelper.cs"
 .loc 30 47 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -34595,7 +34595,7 @@ Lme_169:
 	.align 4
 	.no_dead_strip Mono_Security_Interface_MonoTlsConnectionInfo_get_CipherSuiteCode
 Mono_Security_Interface_MonoTlsConnectionInfo_get_CipherSuiteCode:
-.file 31 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/MonoTlsConnectionInfo.cs"
+.file 31 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/MonoTlsConnectionInfo.cs"
 .loc 31 34 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -34746,7 +34746,7 @@ Lme_18a:
 	.align 4
 	.no_dead_strip Mono_Security_Interface_MonoTlsProvider__ctor
 Mono_Security_Interface_MonoTlsProvider__ctor:
-.file 32 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/MonoTlsProvider.cs"
+.file 32 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/MonoTlsProvider.cs"
 .loc 32 76 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -34760,7 +34760,7 @@ Lme_193:
 	.align 4
 	.no_dead_strip Mono_Security_Interface_MonoTlsProviderFactory_GetProvider
 Mono_Security_Interface_MonoTlsProviderFactory_GetProvider:
-.file 33 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/MonoTlsProviderFactory.cs"
+.file 33 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/MonoTlsProviderFactory.cs"
 .loc 33 78 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -34793,7 +34793,7 @@ Lme_198:
 	.align 4
 	.no_dead_strip Mono_Security_Interface_MonoTlsSettings_get_RemoteCertificateValidationCallback
 Mono_Security_Interface_MonoTlsSettings_get_RemoteCertificateValidationCallback:
-.file 34 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/MonoTlsSettings.cs"
+.file 34 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/MonoTlsSettings.cs"
 .loc 34 35 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -35729,7 +35729,7 @@ Lme_1b8:
 	.align 4
 	.no_dead_strip Mono_Security_Interface_TlsException__ctor_Mono_Security_Interface_Alert
 Mono_Security_Interface_TlsException__ctor_Mono_Security_Interface_Alert:
-.file 35 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/TlsException.cs"
+.file 35 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Interface/TlsException.cs"
 .loc 35 52 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -35892,7 +35892,7 @@ Lme_1bd:
 	.align 4
 	.no_dead_strip Mono_Security_Cryptography_MD2Managed__ctor
 Mono_Security_Cryptography_MD2Managed__ctor:
-.file 36 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/CommonCrypto/MD2Managed.g.cs"
+.file 36 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/CommonCrypto/MD2Managed.g.cs"
 .loc 36 32 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -36184,7 +36184,7 @@ Lme_1c6:
 	.align 4
 	.no_dead_strip Mono_Security_Cryptography_MD4Managed__ctor
 Mono_Security_Cryptography_MD4Managed__ctor:
-.file 37 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/CommonCrypto/MD4Managed.g.cs"
+.file 37 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/CommonCrypto/MD4Managed.g.cs"
 .loc 37 32 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -36476,7 +36476,7 @@ Lme_1cf:
 	.align 4
 	.no_dead_strip Mono_Security_Cryptography_CryptoConvert_ToHex_byte__
 Mono_Security_Cryptography_CryptoConvert_ToHex_byte__:
-.file 38 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/CryptoConvert.cs"
+.file 38 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/CryptoConvert.cs"
 .loc 38 716 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -36744,7 +36744,7 @@ Lme_1d2:
 	.align 4
 	.no_dead_strip Mono_Security_Cryptography_MD2__ctor
 Mono_Security_Cryptography_MD2__ctor:
-.file 39 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/MD2.cs"
+.file 39 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/MD2.cs"
 .loc 39 44 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -36787,7 +36787,7 @@ Lme_1d4:
 	.align 4
 	.no_dead_strip Mono_Security_Cryptography_MD4__ctor
 Mono_Security_Cryptography_MD4__ctor:
-.file 40 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/MD4.cs"
+.file 40 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/MD4.cs"
 .loc 40 45 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -36830,7 +36830,7 @@ Lme_1d6:
 	.align 4
 	.no_dead_strip Mono_Security_Cryptography_PKCS1_HashNameFromOid_string_bool
 Mono_Security_Cryptography_PKCS1_HashNameFromOid_string_bool:
-.file 41 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/PKCS1.cs"
+.file 41 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/PKCS1.cs"
 .loc 41 431 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -37462,7 +37462,7 @@ Lme_1da:
 	.align 4
 	.no_dead_strip Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__ctor
 Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__ctor:
-.file 42 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/PKCS8.cs"
+.file 42 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/PKCS8.cs"
 .loc 42 106 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -39740,7 +39740,7 @@ Lme_1f3:
 	.align 4
 	.no_dead_strip Mono_Security_Cryptography_RSAManaged__ctor
 Mono_Security_Cryptography_RSAManaged__ctor:
-.file 43 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/RSAManaged.cs"
+.file 43 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/Mono.Security/Mono.Security.Cryptography/RSAManaged.cs"
 .loc 43 74 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -41723,7 +41723,7 @@ LDIFF_SYM3=ut_end - ut_518
 	.align 4
 	.no_dead_strip System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors__ctor_Mono_Security_Interface_MonoSslPolicyErrors
 System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors__ctor_Mono_Security_Interface_MonoSslPolicyErrors:
-.file 44 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
+.file 44 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
 .loc 44 27 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -41936,7 +41936,7 @@ b System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nulla
 	.align 4
 	.no_dead_strip System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
 System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors:
-.file 45 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 45 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 45 52 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -45204,7 +45204,7 @@ Lme_24a:
 	.align 4
 	.no_dead_strip System_Array_Reverse_T_BYTE_T_BYTE__
 System_Array_Reverse_T_BYTE_T_BYTE__:
-.file 46 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Array.cs"
+.file 46 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Array.cs"
 .loc 46 898 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -49332,7 +49332,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "85BBA307-8F30-4F8C-A8BC-C1F6E82DED0D"
+	.asciz "55D68BC7-D521-47C0-914C-46561AB59407"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -49422,7 +49422,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 41,49,66,87,79,4,37,29,148,136,176,144,55,2,240,232
+	.byte 19,162,191,12,16,174,238,27,238,30,144,17,97,174,72,200
 	.globl _mono_aot_module_Mono_Security_info
 	.align 3
 _mono_aot_module_Mono_Security_info:

@@ -5,14 +5,21 @@ namespace ToDo.Models
 {
     public class BlePeripheral : Helpers.ObservableObject
     {
-        public const string UuidRegex = "^[0-9a-zA-A]{8}-[0-9a-zA-A]{4}-[0-9a-zA-A]{4}-[0-9a-zA-A]{4}-[0-9a-zA-A]{12}";
+        [System.Xml.Serialization.XmlIgnore]
+        static readonly string UuidRegex = "^[0-9a-zA-A]{8}-[0-9a-zA-A]{4}-[0-9a-zA-A]{4}-[0-9a-zA-A]{4}-[0-9a-zA-A]{12}";
         public enum Properties
         {
             Read = 0,
             Write,
             Notify
         };
-        public string Name { get; set; }
+        public int Id { get; set; }
+        private string name;
+        public string Name
+        {
+            get { return name; }
+            set { SetProperty(ref name, value); }
+        }
         private bool isOn;
         public bool IsOn
         {
@@ -61,24 +68,24 @@ namespace ToDo.Models
                 }
             }
         }
-        private Properties property;
+        /*private Properties property;
         public Properties Property
         {
             get { return property; }
             set { SetProperty(ref property, value); }
-        }
+        }*/
 
         public static BlePeripheral CreateNewItem()
         {
             return new BlePeripheral()
             {
-                Name = "Init",
-                isOn = false,
+                name = "Inited",
+                isOn = true,
                 isPaired = false,
-                serviceUuid = null,
-                characteristicUuid = null,
-                characteristicDescriptorUuid = null,
-                property = Properties.Notify
+                serviceUuid = "00001111-2222-3333-4444-666666666666",
+                characteristicUuid = "00001111-2222-3333-4444-666666666666",
+                characteristicDescriptorUuid = "00001111-2222-3333-4444-666666666666",
+                //Property = Properties.Notify
             };
         }
         public BlePeripheral CopyItem(BlePeripheral target)
@@ -86,12 +93,12 @@ namespace ToDo.Models
             target = target ?? new BlePeripheral();
 
             target.Name = this.Name;
-            target.isOn = this.isOn;
-            target.isPaired = this.isPaired;
-            target.serviceUuid = this.serviceUuid;
-            target.characteristicUuid = this.characteristicUuid;
-            target.characteristicDescriptorUuid = this.characteristicDescriptorUuid;
-            target.property = this.property;
+            target.IsOn = this.isOn;
+            target.IsPaired = this.isPaired;
+            target.ServiceUuid = this.serviceUuid;
+            target.CharacteristicUuid = this.characteristicUuid;
+            target.CharacteristicDescriptorUuid = this.characteristicDescriptorUuid;
+            //target.property = this.property;
 
             return target;
         }

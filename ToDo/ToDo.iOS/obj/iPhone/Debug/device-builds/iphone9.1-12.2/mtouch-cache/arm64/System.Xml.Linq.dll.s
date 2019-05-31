@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "System.Xml.Linq.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip SR_Format_string_object
 SR_Format_string_object:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/build/common/SR.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/build/common/SR.cs"
 .loc 1 36 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -188,7 +188,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip System_Xml_Linq_BaseUriAnnotation__ctor_string
 System_Xml_Linq_BaseUriAnnotation__ctor_string:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/BaseUriAnnotation.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/BaseUriAnnotation.cs"
 .loc 2 13 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -219,7 +219,7 @@ Lme_2:
 	.align 4
 	.no_dead_strip System_Xml_Linq_LineInfoAnnotation__ctor_int_int
 System_Xml_Linq_LineInfoAnnotation__ctor_int_int:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/LineInfoAnnotation.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/LineInfoAnnotation.cs"
 .loc 3 22 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -242,7 +242,7 @@ Lme_3:
 	.align 4
 	.no_dead_strip System_Xml_Linq_LineInfoEndElementAnnotation__ctor_int_int
 System_Xml_Linq_LineInfoEndElementAnnotation__ctor_int_int:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/LineInfoEndElementAnnotation.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/LineInfoEndElementAnnotation.cs"
 .loc 4 15 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -263,7 +263,7 @@ Lme_4:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XAttribute__ctor_System_Xml_Linq_XName_object
 System_Xml_Linq_XAttribute__ctor_System_Xml_Linq_XName_object:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XAttribute.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XAttribute.cs"
 .loc 5 55 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -938,7 +938,7 @@ Lme_d:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XCData__ctor_string
 System_Xml_Linq_XCData__ctor_string:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XCData.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XCData.cs"
 .loc 6 19 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1047,7 +1047,7 @@ Lme_12:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XComment__ctor_string
 System_Xml_Linq_XComment__ctor_string:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XComment.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XComment.cs"
 .loc 7 32 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1213,7 +1213,7 @@ Lme_17:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XContainer__ctor
 System_Xml_Linq_XContainer__ctor:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XContainer.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XContainer.cs"
 .loc 8 27 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -3747,7 +3747,7 @@ Lme_27:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XDeclaration__ctor_System_Xml_Linq_XDeclaration
 System_Xml_Linq_XDeclaration__ctor_System_Xml_Linq_XDeclaration:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDeclaration.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDeclaration.cs"
 .loc 9 59 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -3939,7 +3939,7 @@ Lme_2a:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XDocument__ctor_System_Xml_Linq_XDocument
 System_Xml_Linq_XDocument__ctor_System_Xml_Linq_XDocument:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDocument.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDocument.cs"
 .loc 10 105 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -4424,7 +4424,7 @@ Lme_32:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XDocumentType__ctor_string_string_string_string
 System_Xml_Linq_XDocumentType__ctor_string_string_string_string:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDocumentType.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDocumentType.cs"
 .loc 11 25 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -4673,7 +4673,7 @@ Lme_37:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XElement__ctor_System_Xml_Linq_XName
 System_Xml_Linq_XElement__ctor_System_Xml_Linq_XName:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XElement.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XElement.cs"
 .loc 12 67 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -6125,7 +6125,7 @@ Lme_4c:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XHashtable_1_TValue_REF__ctor_System_Xml_Linq_XHashtable_1_ExtractKeyDelegate_TValue_REF_int
 System_Xml_Linq_XHashtable_1_TValue_REF__ctor_System_Xml_Linq_XHashtable_1_ExtractKeyDelegate_TValue_REF_int:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XHashtable.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XHashtable.cs"
 .loc 13 79 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -7195,7 +7195,7 @@ LDIFF_SYM3=ut_end - ut_90
 	.align 4
 	.no_dead_strip System_Xml_Linq_NamespaceCache_Get_string
 System_Xml_Linq_NamespaceCache_Get_string:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XLinq.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XLinq.cs"
 .loc 14 189 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -8302,7 +8302,7 @@ Lme_68:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string
 System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XName.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XName.cs"
 .loc 15 26 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -8542,7 +8542,7 @@ Lme_72:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XNamespace__ctor_string
 System_Xml_Linq_XNamespace__ctor_string:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XNamespace.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XNamespace.cs"
 .loc 16 36 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -9307,7 +9307,7 @@ Lme_83:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XNode__ctor
 System_Xml_Linq_XNode__ctor:
-.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XNode.cs"
+.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XNode.cs"
 .loc 17 37 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -9587,7 +9587,7 @@ Lme_89:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XObject__ctor
 System_Xml_Linq_XObject__ctor:
-.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XObject.cs"
+.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XObject.cs"
 .loc 18 20 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -10323,7 +10323,7 @@ Lme_96:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XProcessingInstruction__ctor_string_string
 System_Xml_Linq_XProcessingInstruction__ctor_string_string:
-.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XProcessingInstruction.cs"
+.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XProcessingInstruction.cs"
 .loc 19 32 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -10566,7 +10566,7 @@ Lme_9c:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XText__ctor_string
 System_Xml_Linq_XText__ctor_string:
-.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XText.cs"
+.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XText.cs"
 .loc 20 24 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -10776,7 +10776,7 @@ Lme_a2:
 	.align 4
 	.no_dead_strip System_Text_StringBuilderCache_Acquire_int
 System_Text_StringBuilderCache_Acquire_int:
-.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Text/StringBuilderCache.cs"
+.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Text/StringBuilderCache.cs"
 .loc 21 27 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -15030,7 +15030,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "0DB1004C-92B4-412C-83B8-6880C6D74765"
+	.asciz "180E109E-1839-429B-87ED-683756E7F942"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -15120,7 +15120,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 159,81,69,57,238,162,42,24,238,10,60,191,145,246,184,35
+	.byte 190,214,63,47,163,245,148,179,249,223,131,203,64,186,165,184
 	.globl _mono_aot_module_System_Xml_Linq_info
 	.align 3
 _mono_aot_module_System_Xml_Linq_info:

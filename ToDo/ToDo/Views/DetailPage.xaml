@@ -7,19 +7,22 @@
              x:Class="ToDo.Views.DetailPage"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Save" />
+        <ToolbarItem Text="Save" Clicked="Save_Clicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Spacing="10" Padding="15">
+            <Label Text="ID" FontSize="Medium"/>
+            <Label Text="{Binding Id}" FontSize="Small"/>
+            <Label Text="Name" FontSize="Medium"/>
+            <Entry Text="{Binding Name}" FontSize="Small"/>
             <Label Text="SERVICE UUID"/>
-            <Entry Placeholder="00000000-0000-0000-0000-000000000000" FontSize="Medium"/>
+            <Entry Text="{Binding ServiceUuid}" Placeholder="00000000-0000-0000-0000-000000000000" FontSize="Medium"/>
             <Label Text="CHARACTERISTIC UUID"/>
-            <Entry Placeholder="00000000-0000-0000-0000-000000000000" FontSize="Medium"/>
+            <Entry Text="{Binding CharacteristicUuid}" Placeholder="00000000-0000-0000-0000-000000000000" FontSize="Medium"/>
+            <Label Text="DESCRIPTOR UUID"/>
+            <Entry Text="{Binding CharacteristicDescriptorUuid}" Placeholder="00000000-0000-0000-0000-000000000000" FontSize="Medium"/>
             <Label Text="Property"/>
-            <Picker></Picker>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Picker ItemsSource="{Binding Property}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

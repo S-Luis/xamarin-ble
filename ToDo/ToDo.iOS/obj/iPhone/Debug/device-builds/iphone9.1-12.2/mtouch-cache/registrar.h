@@ -9,16 +9,18 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <GLKit/GLKit.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <QuartzCore/QuartzCore.h>
 #import <WebKit/WebKit.h>
-#import <CoreGraphics/CoreGraphics.h>
 
 @class UIApplicationDelegate;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
 @class AppDelegate;
+@class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
+@class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
 @class GLKViewDelegate;
 @class WKNavigationDelegate;
 @class WKUIDelegate;
@@ -180,8 +182,6 @@
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewUIDelegate;
-@class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
-@class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
 
 @interface UIApplicationDelegate : NSObject<UIApplicationDelegate> {
 }
@@ -213,6 +213,20 @@
 }
 	-(BOOL) application:(UIApplication *)p0 didFinishLaunchingWithOptions:(NSDictionary *)p1;
 	-(id) init;
+@end
+
+@interface OpenTK_Platform_iPhoneOS_iPhoneOSGameView : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	+(Class) layerClass;
+	-(void) layoutSubviews;
+	-(void) willMoveToWindow:(UIWindow *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) initWithCoder:(NSCoder *)p0;
+	-(id) initWithFrame:(CGRect)p0;
 @end
 
 @interface GLKViewDelegate : NSObject<GLKViewDelegate> {
@@ -957,20 +971,6 @@
 }
 	-(CGSize) sizeThatFits:(CGSize)p0;
 	-(id) init;
-@end
-
-@interface OpenTK_Platform_iPhoneOS_iPhoneOSGameView : UIView {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	+(Class) layerClass;
-	-(void) layoutSubviews;
-	-(void) willMoveToWindow:(UIWindow *)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) initWithCoder:(NSCoder *)p0;
-	-(id) initWithFrame:(CGRect)p0;
 @end
 
 

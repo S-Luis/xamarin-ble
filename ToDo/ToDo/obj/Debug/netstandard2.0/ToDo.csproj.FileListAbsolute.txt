@@ -42,3 +42,17 @@ C:/Users/isobe-h/Desktop/xamarin-todo/ToDo/ToDo/obj/Debug/netstandard2.0/Views/D
 /Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/ToDo.dll
 /Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/ref/ToDo.dll
 /Users/nora/Desktop/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/ToDo.pdb
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/bin/Debug/netstandard2.0/ToDo.deps.json
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/bin/Debug/netstandard2.0/ToDo.dll
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/bin/Debug/netstandard2.0/ref/ToDo.dll
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/bin/Debug/netstandard2.0/ToDo.pdb
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/Views/DetailPage.xaml.g.cs
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/ToDo.csproj.CoreCompileInputs.cache
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/ToDo.AssemblyInfoInputs.cache
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/ToDo.AssemblyInfo.cs
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/ToDo.dll
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/ref/ToDo.dll
+/Users/nora/Projects/xamarin-ble/ToDo/ToDo/obj/Debug/netstandard2.0/ToDo.pdb
